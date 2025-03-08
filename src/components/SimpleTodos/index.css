@@ -1,0 +1,46 @@
+/* Write your CSS here */
+body {
+  margin: 0px;
+}
+.simple-Todo-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+  background-color: #ffc2a0;
+  background-size: cover;
+
+  padding: 30px 20px 30px 20px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 90%;
+  
+}
+.title {
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 70px;
+  margin-bottom: 60px;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 60px;
+    margin-bottom: 100px;
+  }
+}
+
+.todo-items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
